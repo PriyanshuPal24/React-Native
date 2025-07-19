@@ -1,15 +1,16 @@
-# 🎨 BgChanger App (React Native)
+# 🎲 React Native Dice Roller App
 
-The **BgChanger** app is a simple React Native application that allows users to change the background color of the screen dynamically with a tap of a button. It's a fun and interactive way to explore basic concepts of React Native like hooks, styling, and state management.
+A simple, interactive dice rolling app built with React Native. Tap the button to roll a dice and get a haptic feedback along with a dice image update.
 
 ---
 
 ## 🚀 Features
 
-- Change background color on button tap
-- Random color generation using hex codes
-- Clean and minimal UI
-- Great for beginners to understand state and events
+- 🎲 Displays dice faces from 1 to 6 using images
+- 🔄 Random number generation on button tap
+- 📳 Haptic feedback on dice roll (using react-native-haptic-feedback)
+- 🌈 Simple and clean UI
+- 🧊 Default state uses a Zero.png image (no roll yet)
 
 ---
 
@@ -23,29 +24,46 @@ The **BgChanger** app is a simple React Native application that allows users to 
 
 ## 📸 Screenshots
 
-| Home Screen | 
-| ![Home Screen](./assets/HomePage.png) |
+| Home Screen | Result Screen |
+|-------------|--------------------|
+| ![Home Screen](./assets/Home%20Screen.png) | ![Result Screen](./assets/Result.png) |
 
 ---
 ## ▶️ Running the App
 
-### Step 1: Start Metro Bundler
+1. Clone the Repository
+  
+   git clone https://github.com/your-username/dice-roller-react-native.git
+   
+   cd dice-roller-react-native
+2. Install Dependencies
+   
+   npm install
+   
+   or
+   
+   yarn install
+   
+3. Install Haptic Feedback Library
+   npm install react-native-haptic-feedback
 
-```bash
-# using npm
-npm start
-
-# OR
-yarn start
-
+   For iOS (if not using Expo)
+   
+   cd ios && pod install && cd ..
 ---
 
-## 📝 To-Do (Optional Enhancements)
-   -Add color palette history
-   -Allow user to copy the background color hex code
-   -Toggle between light and dark mode
-   -Add animations when changing background
+## 🧠 How It Works
+  -App starts with a Zero.png dice image.
+- On tapping the "TAP ME" button:
+  - A random number between 1 and 6 is generated.
+  - The corresponding dice image (One.png, ..., Six.png) is shown.
+  - Haptic feedback is triggered on supported devices.
 
+---
+## ✨ Customization
+   - 🔁 Add more animations or sound effects.
+   - 🖼 Change dice images with your own designs.
+   - 🎨 Modify styles in StyleSheet.create().
 ---
 
 ## 📝 License
