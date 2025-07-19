@@ -27,6 +27,18 @@ The **BgChanger** app is a simple React Native application that allows users to 
 | ![Home Screen](./assets/HomePage.png) |
 
 ---
+
+## 📝 To-Do (Optional Enhancements)
+   -Add color palette history
+   -Allow user to copy the background color hex code
+   -Toggle between light and dark mode
+   -Add animations when changing background
+
+---
+## 📝 License
+   - This project is open-source and available under the MIT License.
+   - Made with ❤️ by Priyanshu Pal
+---
 ## ▶️ Running the App
 
 ### Step 1: Start Metro Bundler
@@ -38,21 +50,6 @@ npm start
 # OR
 yarn start
 
----
-
-## 📝 To-Do (Optional Enhancements)
-   -Add color palette history
-   -Allow user to copy the background color hex code
-   -Toggle between light and dark mode
-   -Add animations when changing background
-
----
-
-## 📝 License
-   - This project is open-source and available under the MIT License.
-   - Made with ❤️ by Priyanshu Pal
-
----
 
 
 
