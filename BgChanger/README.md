@@ -1,6 +1,6 @@
 # 🎨 BgChanger App (React Native)
 
-The **BgChanger** app is a simple React Native application that allows users to change the background color of the screen dynamically with a tap of a button. It's a fun and interactive way to explore basic concepts of React Native like hooks, styling, and state management.
+The **BgChanger** app is a simple React Native application that allows users to change the background color of the screen dynamically with a tap of a button. It's a fun and interactive way to explore basic concepts of React Native like hooks, styling and state management.
 
 ---
 
