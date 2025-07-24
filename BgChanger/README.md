@@ -6,10 +6,10 @@ The **BgChanger** app is a simple React Native application that allows users to 
 
 ## 🚀 Features
 
-- Change background color on button tap
-- Random color generation using hex codes
-- Clean and minimal UI
-- Great for beginners to understand state and events
+- Change background color on button tap.
+- Random color generation using hex codes.
+- Clean and minimal UI.
+- Great for beginners to understand state and events.
 
 ---
 
